@@ -50,9 +50,10 @@ int main()
 				hayArticulo = CargarListadoArticulos(listaArticulos,TAMARTICULO,listaRubros,TAMRUBRO);
 				if(hayArticulo == -1){
 					printf("No se realizo alta de articulo\n");
-					cantArticulos++;
+
 				}else{
 					printf("Articulo dado de alta !!\n");
+					cantArticulos++;
 				}
         	break;
         	case 2:
